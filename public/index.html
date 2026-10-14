@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tool Hub · 下载工具</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body><main><header><span class="badge">TOOL HUB</span><h1>下载，简单一点。</h1><p>粘贴文件直链，查看进度，然后保存到你的设备。</p></header>
+<form id="download-form"><label for="url">文件链接</label><div class="input-row"><input id="url" type="url" placeholder="https://example.com/file.zip" required autocomplete="off"><button type="submit">开始下载</button></div><small>支持 HTTP / HTTPS · 单文件最大 1 GiB · 同时最多 3 个任务</small></form>
+<p id="message" role="status" aria-live="polite"></p><section aria-labelledby="tasks-title"><h2 id="tasks-title">下载任务</h2><div id="tasks"><p class="empty">还没有下载任务，粘贴链接即可开始。</p></div></section>
+<footer>适用于公开文件直链，无需登录。下载完成后请保存并清理任务。</footer></main></body></html>
